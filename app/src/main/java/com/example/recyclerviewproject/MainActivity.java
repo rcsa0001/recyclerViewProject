@@ -10,6 +10,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
+/*    lateinit var viewModel: NoteViewModel
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        super.onCreate(savedInstancesState)
+                setContentView(R.layout.activity_main)
+                        viewModel = ViewModelProvider(owner: this
+    ViewModelProvider.AndroidViewModelFactory.getInstance(application)).get(NoteViewModel::class.java)
+   viewModel.allNotes.observe(owner: this, Observer{it: List<Note>!)
+   })
+   }
+    }*/
+
     RecyclerView recyclerView;
     LinearLayoutManager layoutManager;
     List<ModelClass> userList;
