@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 /**
- * This recycler view adapter
+ * This recycler view adapter 
  */
 public class Adapter extends RecyclerView.Adapter<Adapter.viewHolder> {
     private List<ModelClass> userList;
